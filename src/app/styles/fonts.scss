@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'sigicons';
+    src: url('../../assets/fonts/sigicons.eot');
+   // src: url('assets/fonts/sigicons.eot');
+    src: url('../../assets/fonts/sigicons.eot?#iefix')
+        format('embedded-opentype'),
+      url('../../assets/fonts/sigicons.woff') format('woff'),
+      url('../../assets/fonts/sigicons.ttf') format('truetype'),
+      url('../../assets/fonts/sigicons.svg#sigicons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  *.icon {
+    font-family: sigicons;
+  }

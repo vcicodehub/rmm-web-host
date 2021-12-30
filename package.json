@@ -6,19 +6,26 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js"
   },
   "private": true,
   "dependencies": {
+    "@angular-architects/module-federation": "^12.4.0",
     "@angular/animations": "~12.2.0",
+    "@angular/cdk": "^12.2.12",
     "@angular/common": "~12.2.0",
     "@angular/compiler": "~12.2.0",
     "@angular/core": "~12.2.0",
+    "@angular/flex-layout": "^11.0.0-beta.33",
     "@angular/forms": "~12.2.0",
+    "@angular/material": "^12.2.12",
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
     "rxjs": "~6.6.0",
+    "schematics-scss-migrate": "^1.3.14",
+    "srs-user-lib": "file:../srs-lib/dist/srs-user-lib/srs-user-lib-0.0.1.tgz",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
